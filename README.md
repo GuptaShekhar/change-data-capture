@@ -42,6 +42,7 @@ To run this project locally, you will need to have Docker and Docker Compose ins
     Install MySQL 8.0 using Homebrew on a Mac and then navigate to the configuration directory to create a my.cnf file.
     ```
     brew install mysql@8.0
+    brew services start mysql@8.0
     cd /opt/homebrew/var/mysql
     touch my.cnf
     vim my.cnf
